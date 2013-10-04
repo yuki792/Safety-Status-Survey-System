@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+div#snippet {
+
+}
+
+div#snippet p {
+margin: 20px 10px;
+font-size: 13px;
+color: #343434;
+line-height: 30px;
+background-image: url(../images/underline_blue.gif);
+}

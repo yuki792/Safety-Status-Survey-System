@@ -1,0 +1,66 @@
+﻿@charset "utf-8";
+/* ===================================================================
+CSS information
+
+ File Name  : contents.css
+ Author     : MIYA
+ Style Info : コンテンツ内のスタイル
+=================================================================== */
+
+
+div.main	{
+	width: 620px;
+}
+h3	{
+	font-size: 133.3%;
+	margin-bottom: 5px;
+}
+
+/* サンプルtableの共通設定
+----------------------------------------------------------- */
+table	{
+	border-collapse: collapse;	border-spacing: 0;
+	width: 100%;
+	margin-bottom: 30px;
+}
+th, td	{
+	padding: 10px 20px;
+	color: #1D5C79;
+}
+
+/* サンプル7
+----------------------------------------------------------- */
+.sample7 th	{
+	background: #CAE5F1 url(image/th.jpg) repeat-x;
+	border-top: 2px solid #1D5C79;
+	border-bottom: 1px solid #FFF;
+}
+.sample7 th.id	{
+	width: 100px;
+}
+.sample7 th.name{
+	width: 270px;
+}
+.sample7 th.anpi{
+	width: 150px;
+}
+.sample7 th.detail{
+	width: 100px;
+}
+.sample7 td	{
+	background: #F4FAFC url(image/td.jpg) repeat-x;
+	border-bottom: 1px solid #FFF;
+}
+
+/* サンプル7_2
+----------------------------------------------------------- */
+.sample7_2 th	{
+	width: 100px;
+	background: #CAE5F1 url(image/th.jpg) repeat-x;
+	border-bottom: 1px solid #FFF;
+}
+.sample7_2 td	{
+	width: 520px;
+	background: #F4FAFC url(image/td.jpg) repeat-x;
+	border-bottom: 1px solid #FFF;
+}

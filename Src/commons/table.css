@@ -1,0 +1,46 @@
+div.inquiry_form {
+padding: 0px auto 0px auto;
+}
+
+table.inquiry_form {
+clear: both;
+margin: 10px auto 2px auto;
+width: 620px;
+background-color: #DDDDEE;/* テーブル全体の背景色 */
+}
+
+table.inquiry_form tr th {
+width: 150px;
+background-color: #DDDDDD;/* 項目の背景色 */
+padding: 10px;
+text-align: left;
+font-size: 13px;
+font-weight: normal;
+border: solid 1px #FFFFFF;
+}
+
+table.inquiry_form tr td {
+background-color: #FFFFFF;/* 備考の背景色 */
+padding: 10px;
+text-align: left;
+font-size: 13px;
+font-weight: normal;
+border: solid 1px #FFFFFF;/* 備考のライン色 */
+}
+
+span.note {
+display: block;
+text-align: right;
+padding: 2px 15px 15px 0px;
+font-size: 13px;
+color: #666666;
+}
+
+span.require {
+color: red;
+}
+
+div.error {
+color: red;
+text-align: center;
+}
